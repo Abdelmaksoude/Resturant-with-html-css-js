@@ -1,0 +1,500 @@
+/* start main rules*/
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600;700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/******************** nav-bar **********************/
+.nav-bar {
+  padding: 15px 0;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  height: 320px;
+}
+.nav-bar h2:nth-of-type(1) {
+  float: left;
+  width: 50%;
+  margin-left: 13px;
+  margin-top: 15px;
+  font-size: 35px;
+  font-family: "Cherry Swash";
+  cursor: pointer;
+  color: #fff;
+}
+.nav-bar h2 i {
+  color: #528f2d;
+}
+.nav-bar ul {
+  margin: 0px;
+  padding-top: 10px;
+}
+.nav-bar ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bolder;
+  font-family: "Ubuntu";
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar ul li:hover,
+.nav-bar ul li a:hover {
+  color: #528f2d;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar ul li button {
+  padding: 13px 29px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 17px;
+  border-radius: 21px;
+  outline: none;
+  border: 1.5px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar ul li button:hover {
+  background-color: #fff;
+  color: #528f2d;
+}
+.nav-bar h2:nth-of-type(2) {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  font-family: "Signika";
+}
+/********************end nav bar **********************/
+
+/* start about us*/
+.about-us {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about-us .image {
+  float: right;
+  width: 50%;
+}
+.about-us .image img {
+  width: 80%;
+  margin-left: 60px;
+}
+.about-us .for {
+  float: left;
+  width: 50%;
+}
+.about-us .for h2 {
+  font-size: 36px;
+  color: #151515;
+  line-height: 36px;
+  text-align: right;
+  font-family: "Signika";
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-us .for p {
+  width: 100%;
+  text-align: right;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Ubuntu";
+  color: #686868;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.about-us .for .hobbies {
+  overflow: hidden;
+  margin: 20px;
+}
+.about-us .for .hobbies .button1 {
+  float: right;
+  width: 35%;
+  padding: 13px 29px;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+  border: 1.5px solid #fff;
+  background-color: rgb(65 157 37 / 84%);
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.about-us .for .hobbies .button1:hover {
+  background-color: white;
+  color: rgba(66, 160, 37, 0.842);
+}
+
+/*end about us*/
+
+/* start about me*/
+.about-me {
+  background-color: #faf5f5;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about-me .image {
+  float: left;
+  width: 50%;
+}
+.about-me .info h2 {
+  font-size: 36px;
+  color: #151515;
+  line-height: 36px;
+  text-align: left;
+  font-family: "Signika";
+  font-weight: 700;
+}
+.about-me .info p {
+  max-width: 90%;
+  width: 100%;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #686868;
+}
+.about-me .image img {
+  width: 80%;
+}
+.about-me .info {
+  float: left;
+  width: 50%;
+}
+.about-me .info .hobbies {
+  overflow: hidden;
+  margin: 20px;
+}
+.about-me .info .hobbies .button2 {
+  float: left;
+  width: 35%;
+  padding: 13px 29px;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+  border: 1.5px solid #fff;
+  background-color: rgb(65 157 37 / 84%);
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.about-me .info .hobbies .button2:hover {
+  background-color: white;
+  color: rgba(66, 160, 37, 0.842);
+}
+/*end about me*/
+
+/*star about all*/
+
+.about-all {
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about-all .image {
+  float: right;
+  width: 50%;
+}
+.about-all .image img {
+  width: 80%;
+  margin-left: 60px;
+}
+.about-all .bom {
+  float: left;
+  width: 50%;
+}
+.about-all .bom h2 {
+  font-size: 36px;
+  color: #151515;
+  line-height: 36px;
+  text-align: right;
+  font-family: "Signika";
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-all .bom p {
+  width: 100%;
+  text-align: right;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Ubuntu";
+  color: #686868;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.about-all .bom.hobbies {
+  overflow: hidden;
+  margin: 20px;
+}
+.about-all .bom .hobbies .button3 {
+  float: right;
+  width: 35%;
+  padding: 13px 29px;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+  border: 1.5px solid #fff;
+  background-color: rgb(65 157 37 / 84%);
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.about-all .bom .hobbies .button3:hover {
+  background-color: white;
+  color: rgba(66, 160, 37, 0.842);
+}
+
+/*end about all*/
+
+/*star about you*/
+
+.about-you {
+  background-color: #faf5f5;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about-you .image {
+  float: left;
+  width: 50%;
+}
+.about-you .both h2 {
+  font-size: 36px;
+  color: #151515;
+  line-height: 36px;
+  text-align: left;
+  font-family: "Signika";
+  font-weight: 700;
+}
+.about-you .both p {
+  max-width: 90%;
+  width: 100%;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #686868;
+}
+.about-you .image img {
+  width: 80%;
+}
+.about-you .both {
+  float: left;
+  width: 50%;
+}
+
+.about-you .both.hobbies {
+  overflow: hidden;
+  margin: 20px;
+}
+.about-you .both .hobbies .button4 {
+  float: left;
+  width: 35%;
+  padding: 13px 29px;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+  border: 1.5px solid #fff;
+  background-color: rgb(65 157 37 / 84%);
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.about-you .both .hobbies .button4:hover {
+  background-color: white;
+  color: rgba(66, 160, 37, 0.842);
+}
+/*end about you*/
+/*
+.bottom {
+    padding: 15px 0;
+    background-image: url("cropped-GettyImages-643764514.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.bottom h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 60px;
+
+}
+.bottom p{
+    text-align: center;
+    color: #ffffff;
+}
+*/
+.search {
+  background-image: url("../images/search.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+.search h2 {
+  padding-top: 107px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 39px;
+  font-family: "Signika";
+  font-weight: 700;
+}
+.search p {
+  text-align: center;
+  color: #e0e0e0;
+  margin-bottom: 49px;
+  margin-right: 57px;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Ubuntu";
+}
+.search input {
+  display: inline-block;
+  width: 420px;
+  padding: 15px 30px;
+  border: 1.5px solid #fff;
+  border-radius: 24px;
+  outline: none;
+  height: 60px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  right: 646px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search input::placeholder {
+  color: #fff;
+}
+.search select {
+  width: 304px;
+  border: 1.5px solid #fff;
+  border-radius: 24px;
+  outline: none;
+  height: 60px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  right: 343px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+/* class applies to select element itself, not a wrapper element */ /*.select-css == .search select*/
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  border-radius: 0.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background: url("images/arrow2.png");
+  background-repeat: no-repeat;
+  /* arrow icon position */
+  background-position: 76% 50%;
+  /* icon size, then gradient */
+  background-size: 15px;
+}
+/* Focus style */
+.select-css:focus {
+  color: #000;
+  outline: none;
+}
+.search button {
+  right: 341px;
+  position: absolute;
+  top: 239px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 23px 19px 19px 22px;
+  background-color: #fff;
+  border: 1.5px solid #fff;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 51px;
+  transition: all 0.4s ease-in-out;
+}
+.search button i {
+  color: #528f2d;
+}
+.search button:hover {
+  background-color: transparent;
+}
+/********************end search for recipes **************/
+/********************start footer ************************/
+.footer {
+  padding: 10px;
+  height: 40px;
+  background-color: #528f2d;
+}
+
+.footer h2 {
+  text-align: center;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.footer h2:first-of-type {
+  float: left;
+}
+.footer h2:nth-of-type(2) {
+  float: right;
+}
+/********************end footer ***********************/
+/***********************arrow of javascript*****************/
+.arrow {
+  position: absolute;
+  top: 775px;
+  right: 105px;
+  padding: 16px;
+  border-radius: 80%;
+  background-color: #aaa;
+  padding-right: 18px;
+  padding-left: 17px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+.arrow i {
+  color: #fff;
+}
+.hide {
+  visibility: hidden;
+}
+/***********************arrow of javascript*****************/

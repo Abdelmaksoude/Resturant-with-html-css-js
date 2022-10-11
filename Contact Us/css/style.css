@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Ubuntu";
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Signika";
+}
+
+/********************start nav bar **********************/
+.nav-bar {
+  padding: 15px 0;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  height: 320px;
+}
+.nav-bar h2:first-of-type {
+  float: left;
+  width: 54%;
+  margin: 0px;
+  font-size: 35px;
+  font-family: "Cherry Swash";
+  color: #fff;
+  margin-top: 15px;
+}
+.nav-bar h2 i {
+  color: #7aa93c;
+  margin-left: 13px;
+}
+.nav-bar ul {
+  margin: 0px;
+  padding-top: 10px;
+}
+.nav-bar ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bolder;
+  font-family: "Signika";
+  color: #fff;
+  cursor: pointer;
+}
+.nav-bar ul li:hover,
+.nav-bar ul li a:hover {
+  color: #528f2d;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar ul li button {
+  padding: 13px 29px;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 21px;
+  outline: none;
+  border: 1.5px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar ul li button:hover {
+  background-color: #fff;
+  color: #7aa93c;
+}
+.nav-bar h2:nth-of-type(2) {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 150px;
+}
+/********************end nav bar **********************/
+/********************start 3 boxes ********************/
+.three {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 80px;
+}
+.custom {
+  /*this is custom class for each div in .three div*/
+  width: 304px;
+  height: 110px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px 5px #dee0db;
+}
+.three .custom h2 {
+  margin: 10px;
+}
+.three .custom h2 i {
+  color: #7aa93c;
+}
+.three .custom h2 i:hover {
+  color: #000;
+  cursor: pointer;
+}
+.three .custom p {
+  padding-left: 41px;
+  line-height: 22px;
+}
+/********************end 3 boxes ********************/
+/********************start get in touch part **************/
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+
+.get-in-touch .form {
+  width: 500px;
+  text-align: center;
+}
+.get-in-touch .form h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-right: 77px;
+  margin-top: 0px;
+}
+.get-in-touch .form p {
+  text-align: center;
+  color: #888;
+  margin-bottom: 49px;
+  margin-right: 57px;
+}
+.get-in-touch .form input {
+  padding: 16px 29px;
+  font-size: 14px;
+  border-radius: 23px;
+  outline: none;
+  border: 1.5px solid #888;
+  background-color: transparent;
+  display: block;
+  width: 398px;
+  margin-top: 15px;
+}
+.get-in-touch .form textarea {
+  display: block;
+  resize: none;
+  margin-top: 30px;
+  width: 460px;
+  height: 120px;
+  border-radius: 7px;
+  outline: none;
+  border: 1.5px solid #888;
+}
+.get-in-touch .form .input:focus {
+  border: 1.5px solid #7aa93c;
+}
+.get-in-touch .form button {
+  padding: 13px 29px;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 21px;
+  outline: none;
+  cursor: pointer;
+  border: 1.5px solid #fff;
+  background-color: #7aa93c;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  margin-left: 240px;
+}
+.get-in-touch .form button:hover {
+  background-color: #fff;
+  color: #7aa93c;
+  box-shadow: 1px 1px 10px 5px #dee0db;
+}
+/********************end get in touch part **************/
+/********************start search for recipes **************/
+.search {
+  background-image: url("../images/search.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+.search h2 {
+  padding-top: 107px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 33px;
+}
+.search p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 49px;
+  margin-right: 57px;
+}
+.search input {
+  display: inline-block;
+  width: 420px;
+  padding: 15px 30px;
+  border: 1.5px solid #fff;
+  border-radius: 24px;
+  outline: none;
+  height: 60px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  right: 646px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search input::placeholder {
+  color: #fff;
+}
+.search select {
+  width: 304px;
+  border: 1.5px solid #fff;
+  border-radius: 24px;
+  outline: none;
+  height: 60px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  right: 343px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 51px;
+}
+/* class applies to select element itself, not a wrapper element */ /*.select-css == .search select*/
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  border-radius: 0.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 76% 50%;
+  background-size: 15px;
+}
+/* Focus style */
+.select-css:focus {
+  outline: none;
+}
+.search button {
+  right: 342px;
+  position: absolute;
+  top: 244px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 21px 19px 19px 22px;
+  background-color: #fff;
+  border: 1.5px solid #fff;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 51px;
+  transition: all 0.4s ease-in-out;
+}
+.search button i {
+  color: #7aa93c;
+}
+.search button:hover i {
+  color: #fff;
+}
+.search button:hover {
+  background-color: transparent;
+}
+/********************end search for recipes **************/
+/********************start footer ************************/
+.footer {
+  padding: 10px;
+  height: 40px;
+  background-color: #7aa93c;
+}
+.footer h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.footer h2:first-of-type {
+  float: left;
+}
+.footer h2:nth-of-type(2) {
+  float: right;
+}
+/********************end footer ***********************/
+/***********************arrow of javascript*****************/
+.arrow {
+  position: fixed;
+  top: 556px;
+  right: 63px;
+  padding: 16px;
+  border-radius: 80%;
+  background-color: rgb(66, 212, 66);
+  padding-right: 13px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+.arrow i {
+  color: white;
+}
+.hide {
+  visibility: hidden;
+}
+/***********************arrow of javascript*****************/
